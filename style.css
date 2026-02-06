@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(12, 12, 78);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fffdfd;
+}
+
+nav ul li a:hover {
+    color: rgb(129, 129, 226);
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.first a:hover {
+    color: rgb(129, 129, 226);
+}
+
+
+.resume-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 18px;
+    background: linear-gradient(135deg, #5a4bff, #7b6cff);
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+   color: #fff;
+   margin-left: 20%;
+  
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.first h6 {
+    font-size: medium;
+    font-weight: 300;
+}
+
+.first .role {
+    font-size: 75%;
+    padding: 8px 2px;
+    color: rgb(185, 191, 191);
+    width: 100%;
+}
+
+.first .name {
+    font-size: larger;
+}
+
+
+.first>div {
+    padding-left: 10%;
+    height: 100px;
+    width: 100%;
+    font-size: 150%;
+}
+
+.leftSection {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.rightSection img {
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    margin-left: 20%;
+}
+
+.purple {
+    color: rgb(209, 189, 228);
+}
+
+
+.secondSection {
+    max-width: 80vw;
+    margin: 100px;
+    margin-top: 3%;
+    height: 120px;
+}
+.secondSection,.thirdSection,.fifthSection p{
+    text-align: center;
+    
+}
+
+.secondSection h1 {
+    margin: 20px;
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: center;
+}
+
+.secondSection .intro {
+    width: 88vw;
+    margin: 30px 0;
+    font-weight: 400;
+}
+
+
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 20vh;
+}
+
+.thirdSection h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourthSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.musicPlayer,
+.textToSpeechConverter,
+.qrCode {
+    margin: 10px;
+    padding: 10px 30px;
+}
+
+.fourthSection a {
+    color: rgb(130, 245, 207);
+    display: flex;
+    gap: 5px;
+}
+
+.fourthSection a:hover {
+    color: rgb(129, 129, 226);
+}
+.fourthSection h4 {
+    margin: 10px;
+    font-size: large;
+    
+}
+
+.fifthSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 20vh;
+   
+}
+
+.fifthSection h1 {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifthSection a {
+    color: rgb(151, 234, 206);
+    margin: 10px;
+    padding: 10px 30px;
+    font-size: large;
+}
+.fifthSection a:hover {
+    color: rgb(129, 129, 226);
+}
+.fifthSection p{
+     margin-bottom: 10px;
+    
+}
